@@ -1,0 +1,82 @@
+body{
+  color: #aaa;
+  background-color: #272b30;
+  border-color: #aaa;
+  text-decoration: none;
+}
+body a{
+  text-decoration: none;
+  color: #AAAAAA!important;
+}
+
+.black_link{
+  color: black !important;
+}
+
+.text_gray{
+  color: #AAAAAA!important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.half_bg_color{
+  background-color: #32383e;
+}
+
+.btn_color{
+background-color: #3a3f44;
+border-color: #40403e;
+}
+
+.p_font{
+  font-size: 14px;
+}
+
+.border_color{
+  border-color: #aaa !important;
+}
+
+.no_hover:hover{
+color:  #0d6efd;
+}
+
+.logo_game_2{
+  height: 72px;
+  margin-bottom: 5px;
+}
+
+.loader {
+  background: #de3500;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  text-align: center;
+  animation: 3s rotate linear infinite;
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #FFFF;
+  animation: 1.5s rotate reverse linear infinite ;
+
+}
+@keyframes rotate {
+  0%{    transform: rotate(0deg)}
+  100%{    transform: rotate(360deg)}
+}
+
+.z_index_max{
+  z-index: 100000000;
+}
+
+.detect_offline{
+z-index: 9999999999999;
+}

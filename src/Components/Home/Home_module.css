@@ -1,0 +1,35 @@
+.home{
+    background-image: url(../../Assets/Images/BgImg.png);
+    background-repeat: no-repeat;
+    background-color: #1c1e22;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: 1rem;
+    padding: 4rem 2rem;
+}
+
+.font_color{
+    color: #49acff;
+}
+
+.btn_no_hover:hover{
+    color: white !important;
+}
+
+.cr_pointer{
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.cr_pointer:hover{
+    transform: scale(1.05);
+}
+
+.bg_gray{
+    background-color: #32383e;
+}
+
+.price_badge{
+    color: #fff;
+    background-color: #4799eb;
+}
